@@ -11,6 +11,7 @@ namespace TestProject
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Git Hub");
+            Console.WriteLine("Hello Git Bash");
         }
     }
 }
