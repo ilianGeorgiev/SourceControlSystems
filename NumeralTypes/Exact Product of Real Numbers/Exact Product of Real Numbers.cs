@@ -8,11 +8,14 @@ namespace Exact_Product_of_Real_Numbers
         {
             decimal n = decimal.Parse(Console.ReadLine());
 
-            decimal product = 0;
+            decimal product = 1;
 
             for (int i = 0; i < n; i++)
+            {
                 product *= decimal.Parse(Console.ReadLine());
+            }
             Console.WriteLine(product);
+
         }
     }
 }
