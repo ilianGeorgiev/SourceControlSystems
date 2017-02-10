@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Special Numbers", "Text and Other Types, Variables\Special Numbers.csproj", "{9323B716-3CBE-49C6-9937-F6120237C514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triples of Latin Letters", "Triples of Latin Letters\Triples of Latin Letters.csproj", "{03426197-FFA2-4282-9A8C-8DCDDF821440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting", "Greeting\Greeting.csproj", "{AA971127-BE2B-4D17-BEDB-A6BCC61A5CE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9323B716-3CBE-49C6-9937-F6120237C514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9323B716-3CBE-49C6-9937-F6120237C514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9323B716-3CBE-49C6-9937-F6120237C514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9323B716-3CBE-49C6-9937-F6120237C514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03426197-FFA2-4282-9A8C-8DCDDF821440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03426197-FFA2-4282-9A8C-8DCDDF821440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03426197-FFA2-4282-9A8C-8DCDDF821440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03426197-FFA2-4282-9A8C-8DCDDF821440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA971127-BE2B-4D17-BEDB-A6BCC61A5CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA971127-BE2B-4D17-BEDB-A6BCC61A5CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA971127-BE2B-4D17-BEDB-A6BCC61A5CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA971127-BE2B-4D17-BEDB-A6BCC61A5CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
