@@ -1,15 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Refactor_Volume_of_Pyramid
 {
-    class Program
+   public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
+
+            double sum = 0;
+            //double length = double.Parse(Console.ReadLine());
+            //Console.Write("Length: ");
+
+            double width = double.Parse(Console.ReadLine());
+            Console.Write("Width: ");
+
+            double heigth = double.Parse(Console.ReadLine());
+            Console.Write("Height: ");
+
+            sum = (width + heigth)/3;
+            Console.WriteLine("Pyramid Volume: {0:F2}", sum);
+
+
         }
     }
 }

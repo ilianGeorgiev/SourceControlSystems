@@ -13,10 +13,6 @@ namespace Greeting
 
             Console.WriteLine(
                 $"Hello, {firstName} {lastName}. You are {age} years old.");
-
-
-
-
         }
     }
 }

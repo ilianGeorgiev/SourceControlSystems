@@ -8,22 +8,20 @@ namespace Refactor_Special_Numbers
        public static void Main(string[] args)
         {
 
-            int maxNumber = int.Parse(Console.ReadLine());
-            int sum = 0;
-            int currentNumbera = 0;
-            bool toe = false;
-            for (int ch = 1; ch <= kolkko; ch++)
+            var maxNumber = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= maxNumber; i++)
             {
-                currentNumbera = ch;
-                while (ch > 0)
+                var currentNumber = i;
+                var sum = 0;
+
+                while (currentNumber > 0)
                 {
-                    obshto += ch % 10;
-                    ch = ch / 10;
+                    sum += currentNumber % 10;
+                    currentNumber = currentNumber / 10;
                 }
-                toe = (obshto == 5) || (obshto == 7) || (obshto == 11);
-                Console.WriteLine($"{currentNumbera} -> {toe}");
-                obshto = 0;
-                ch = currentNumbera;
+                var result = (sum == 5) || (sum == 7) || (sum == 11);
+                Console.WriteLine($"{i} -> {result}");
             }
 
         }
