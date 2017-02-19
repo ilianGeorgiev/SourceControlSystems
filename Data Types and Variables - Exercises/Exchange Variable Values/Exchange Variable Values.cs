@@ -7,12 +7,15 @@ namespace Exchange_Variable_Values
     {
        public static void Main()
         {
-        int a = 5;
-        int b = 10;
-        
-        Console.WriteLine(b);
-        Console.WriteLine(a);
+            int a, b, temp;
+            a = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
 
+            temp = a;
+            a = b;
+            b = temp;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
 
         }
     }
