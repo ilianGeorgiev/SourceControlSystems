@@ -14,7 +14,7 @@ namespace Triangle_Formations
             int b = int.Parse(Console.ReadLine());
             int c = int.Parse(Console.ReadLine());
 
-            if ((a + b > c) && (b + c > a) && (c + a > b))
+            if ((a + b > c) && (a + c > b) && (b + c > a))
             {
                 Console.WriteLine("Triangle is valid.");
                 if ((a * a) + (b * b)== (c * c))
@@ -37,7 +37,7 @@ namespace Triangle_Formations
             }
             else
             {
-                Console.WriteLine("Invalid triangle.");
+                Console.WriteLine("Invalid Triangle.");
             }
         }
     }
