@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate Triangle Area", "Returning Values and Overloading\Calculate Triangle Area.csproj", "{4471D446-1CE2-4888-A9E7-4FD27BCF74A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math Power", "Math Power\Math Power.csproj", "{BA3DB244-86A8-4266-A31C-87AD03CF6E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greater of Two Values", "Greater of Two Values\Greater of Two Values.csproj", "{B3123D8C-26F8-43DB-9356-621E8EC9B6FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4471D446-1CE2-4888-A9E7-4FD27BCF74A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4471D446-1CE2-4888-A9E7-4FD27BCF74A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4471D446-1CE2-4888-A9E7-4FD27BCF74A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3DB244-86A8-4266-A31C-87AD03CF6E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3DB244-86A8-4266-A31C-87AD03CF6E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3DB244-86A8-4266-A31C-87AD03CF6E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3DB244-86A8-4266-A31C-87AD03CF6E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3123D8C-26F8-43DB-9356-621E8EC9B6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3123D8C-26F8-43DB-9356-621E8EC9B6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3123D8C-26F8-43DB-9356-621E8EC9B6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3123D8C-26F8-43DB-9356-621E8EC9B6FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
