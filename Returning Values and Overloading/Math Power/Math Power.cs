@@ -10,6 +10,23 @@ namespace Math_Power
     {
         static void Main(string[] args)
         {
+            var number = double.Parse(Console.ReadLine());
+            var power = int.Parse(Console.ReadLine());
+
+            var numberRaisedToPower = RaiseToPower(number, power);
+            Console.WriteLine(numberRaisedToPower);
+        }
+
+        static double RaiseToPower(double num, int power)
+        {
+            var result = 1d;
+
+            for (int i = 0; i < power; i++)
+            {
+                result *= num;
+            }
+
+            return result;
         }
     }
 }
